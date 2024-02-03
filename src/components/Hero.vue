@@ -7,5 +7,13 @@
             <button class="btn-outline">Create an account</button>
             <button class="btn">Explore</button>
         </div>
+
+        <BlobItem positon="left-0" />
+        <BlobItem positon="right-0" />
+        <BlobItem positon="left-1/2" />
     </div>
 </template>
+
+<script setup lang="ts">
+import BlobItem from '../components/BlobItem.vue'
+</script>
