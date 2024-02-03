@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply text-sm p-2 rounded hover:bg-fuchsia-800 bg-fuchsia-700 text-center text-slate-50;
+  }
+
+  .btn-outline {
+    @apply text-sm p-2 rounded hover:text-fuchsia-50 bg-fuchsia-100 text-center text-fuchsia-700 hover:bg-fuchsia-800;
+  }
+}
